@@ -490,6 +490,11 @@ footer {
   color: #ffffff;
   float: right;
 }
+/* CASES */
+#cases {
+  margin: 40px 0;
+  width: 100%;
+}
 ul {
   display: flex;
   padding-left: 0;
@@ -502,7 +507,7 @@ li {
 .case-card {
   background-color: #ffffff;
   min-height: 400px;
-  text-shadow: 5px 5px 15px black 0.2;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
 }
 .case-img {
   width: 100%;
